@@ -3,7 +3,12 @@
  */
 public class DataTypes {
 
-    public static void main(String[] args)
+
+    public DataTypes() {
+
+    }
+
+    public static void process()
 
     {
         double Fahrenheit = 76.8;
