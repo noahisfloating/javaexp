@@ -13,6 +13,13 @@ public class Main {
 
         System.out.println(sc.average() + " " + sc.sum() + " " + sc.substract() + " " + sc.multiply() + " " + sc.divide());
 
+        Employee e = new Employee("Kamil", "Staszewski", 4100);
+        System.out.println(e.toString());
+        Employee f = new Employee("Kamil", "Staszewski", 4100);
+        System.out.println(e.equals(f));
+
+        Grades.writeTranslation(Grades.translate(Grades.readGrade()));
+
     }
 
 }
